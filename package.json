@@ -12,7 +12,8 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
     "test:integration": "playwright test",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "deploy": "npm run build && npx gh-pages -d build -t true"
   },
   "devDependencies": {
     "@iconify/svelte": "^3.1.6",
