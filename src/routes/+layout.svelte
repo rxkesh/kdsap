@@ -46,7 +46,7 @@
 				</a>
 				<a
 					class="btn variant-ghost"
-					href="kdsap/team"
+					href="/team"
 				>
 					The Team
 				</a>
@@ -68,7 +68,7 @@
 				</div>
 				{#if comboboxValue}
 					{#await Promise.resolve()}
-						{window.location.href = `kdsap/${comboboxValue.replace(/\s/g, '')}`}
+						{window.location.href = `${comboboxValue.replace(/\s/g, '')}`}
 					{/await}
 				{/if}
 			</svelte:fragment>

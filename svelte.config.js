@@ -1,22 +1,29 @@
-import adapter from "@sveltejs/adapter-static"; 
-// was "@sveltejs/adapter-auto"
+import adapter from '@sveltejs/adapter-vercel';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-const dev = "production" === "development";
-
-/** @type {import(""@sveltejs/kit").Config} */
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
+	extensions: ['.svelte'],
+	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
+	// for more information about preprocessors
+	preprocess: [ vitePreprocess()],
+	
+	vitePlugin: {
+		inspector: true,
+	},
 	kit: {
 		adapter: adapter({
-			pages: "docs",
-			assets: "docs"
+			// default options are shown. On some platforms
+			// these options are set automatically — see below
+			pages: 'docs',
+			assets: 'docs',
+			fallback: undefined,
+			precompress: false,
+			strict: true
 		}),
-		paths: {
-			// change below to your repo name
-			base: dev ? "" : "/kdsap",
-		},
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: "#svelte"
+		prerender: {
+			handleHttpError: 'warn'
+		}
 	}
 };
-
 export default config;
