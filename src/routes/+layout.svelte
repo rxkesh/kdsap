@@ -24,6 +24,7 @@
 		closeQuery: '.listbox-item'
 	};
 	import { base } from '$app/paths';
+	
 </script>
 <!-- checks for user light/dark preference-->
 <svelte:head>{@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}</svelte:head>
@@ -39,13 +40,13 @@
 			<svelte:fragment slot="trail">
 				<a
 					class="btn variant-ghost"
-					href="{base}/"
+					href="/"
 				>
 					Home
 				</a>
 				<a
 					class="btn variant-ghost"
-					href="{base}/team"
+					href="kdsap/team"
 				>
 					The Team
 				</a>
@@ -67,7 +68,7 @@
 				</div>
 				{#if comboboxValue}
 					{#await Promise.resolve()}
-						{window.location.href = base + `/${comboboxValue.replace(/\s/g, '')}`}
+						{window.location.href = `kdsap/${comboboxValue.replace(/\s/g, '')}`}
 					{/await}
 				{/if}
 			</svelte:fragment>

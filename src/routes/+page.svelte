@@ -1,7 +1,6 @@
 <script>
 	import img from '$lib/images/kidney_homepage.jpg';
 	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
-	import { onMount } from 'svelte';
 	import Icon from '@iconify/svelte';
 </script>
 
