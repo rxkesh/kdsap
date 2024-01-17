@@ -46,6 +46,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@floating-ui/dom": "^1.5.4"
+    "@floating-ui/dom": "^1.5.4",
+    "@sveltejs/adapter-vercel": "^4.0.5"
   }
 }

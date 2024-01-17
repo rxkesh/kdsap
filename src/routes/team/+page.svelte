@@ -8,7 +8,7 @@
     import simonds_headshot from '$lib/images/headshots/doc_simonds.jpg';
     import ghosheh_headshot from '$lib/images/headshots/doc_ghosheh.jpg';
 
-	import { popup, type PopupSettings } from '@skeletonlabs/skeleton';
+	import { popup, PopupSettings } from '@skeletonlabs/skeleton';
 	import Icon from '@iconify/svelte';
 
 	let elemCarousel: HTMLDivElement;

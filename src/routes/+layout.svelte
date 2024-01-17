@@ -23,7 +23,6 @@
 		placement: 'bottom',
 		closeQuery: '.listbox-item'
 	};
-	import { base } from '$app/paths';
 	
 </script>
 <!-- checks for user light/dark preference-->
