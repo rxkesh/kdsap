@@ -1,0 +1,192 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_Icon.js": {
+    "file": "chunks/Icon.js",
+    "imports": [
+      "_ssr.js",
+      "_functions.js"
+    ]
+  },
+  "_ProgressBar.svelte_svelte_type_style_lang.js": {
+    "css": [
+      "_app/immutable/assets/ProgressBar.TTqSeYrd.css"
+    ],
+    "file": "chunks/ProgressBar.svelte_svelte_type_style_lang.js",
+    "imports": [
+      "_index.js",
+      "_ssr.js"
+    ]
+  },
+  "_app.js": {
+    "file": "_app/immutable/assets/app.62actzG_.css",
+    "src": "_app.js"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js"
+  },
+  "_functions.js": {
+    "file": "chunks/functions.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/lib/images/headshots/aryan_headshot.jpg": {
+    "file": "_app/immutable/assets/aryan_headshot.P004tirm.jpg",
+    "src": "src/lib/images/headshots/aryan_headshot.jpg"
+  },
+  "src/lib/images/headshots/doc_ghosheh.jpg": {
+    "file": "_app/immutable/assets/doc_ghosheh.qVoRge0X.jpg",
+    "src": "src/lib/images/headshots/doc_ghosheh.jpg"
+  },
+  "src/lib/images/headshots/doc_recupero.jpg": {
+    "file": "_app/immutable/assets/doc_recupero.A5hBpKSp.jpg",
+    "src": "src/lib/images/headshots/doc_recupero.jpg"
+  },
+  "src/lib/images/headshots/doc_simonds.jpg": {
+    "file": "_app/immutable/assets/doc_simonds.pa4ofgjz.jpg",
+    "src": "src/lib/images/headshots/doc_simonds.jpg"
+  },
+  "src/lib/images/headshots/rakesh_headshot.jpg": {
+    "file": "_app/immutable/assets/rakesh_headshot.Y-gH_ah4.jpg",
+    "src": "src/lib/images/headshots/rakesh_headshot.jpg"
+  },
+  "src/lib/images/headshots/sachin_headshot.jpg": {
+    "file": "_app/immutable/assets/sachin_headshot.2G9_stmp.jpg",
+    "src": "src/lib/images/headshots/sachin_headshot.jpg"
+  },
+  "src/lib/images/headshots/soham_headshot.jpg": {
+    "file": "_app/immutable/assets/soham_headshot.X0mXjRNB.jpg",
+    "src": "src/lib/images/headshots/soham_headshot.jpg"
+  },
+  "src/lib/images/kdsap_related/GBM1.jpg": {
+    "file": "_app/immutable/assets/GBM1.MnNoJhOq.jpg",
+    "src": "src/lib/images/kdsap_related/GBM1.jpg"
+  },
+  "src/lib/images/kdsap_related/GBM2.jpg": {
+    "file": "_app/immutable/assets/GBM2.nRN6G4US.jpg",
+    "src": "src/lib/images/kdsap_related/GBM2.jpg"
+  },
+  "src/lib/images/kidney_homepage.jpg": {
+    "file": "_app/immutable/assets/kidney_homepage.HNSvxBdh.jpg",
+    "src": "src/lib/images/kidney_homepage.jpg"
+  },
+  "src/routes/+layout.svelte": {
+    "css": [
+      "_app/immutable/assets/app.62actzG_.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_index.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/kidney_homepage.HNSvxBdh.jpg"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_index.js",
+      "_index2.js",
+      "_Icon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/getintouch/+page.svelte": {
+    "file": "entries/pages/getintouch/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Icon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/getintouch/+page.svelte"
+  },
+  "src/routes/team/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/soham_headshot.X0mXjRNB.jpg",
+      "_app/immutable/assets/sachin_headshot.2G9_stmp.jpg",
+      "_app/immutable/assets/aryan_headshot.P004tirm.jpg",
+      "_app/immutable/assets/rakesh_headshot.Y-gH_ah4.jpg",
+      "_app/immutable/assets/doc_recupero.A5hBpKSp.jpg",
+      "_app/immutable/assets/doc_simonds.pa4ofgjz.jpg",
+      "_app/immutable/assets/doc_ghosheh.qVoRge0X.jpg"
+    ],
+    "css": [
+      "_app/immutable/assets/app.62actzG_.css"
+    ],
+    "file": "entries/pages/team/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_functions.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/team/+page.svelte"
+  },
+  "src/routes/whatwedo/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/GBM1.MnNoJhOq.jpg",
+      "_app/immutable/assets/GBM2.nRN6G4US.jpg"
+    ],
+    "file": "entries/pages/whatwedo/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_index.js",
+      "_index2.js",
+      "_functions.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/whatwedo/+page.svelte"
+  }
+}
